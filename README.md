@@ -73,16 +73,22 @@ Enter Marks (0-100): 78
 Student 'Tanvir' added successfully with grade B+.
 ```
 
-## What I Learned
+## Technical Architecture
 
-- Python fundamentals: variables, loops, conditionals, and functions
-- Working with **lists of dictionaries** to manage structured data
-- **File handling** (reading from and writing to text files) for persistent storage
-- Building a clean, menu-driven CLI application
-- Input validation and error handling using `try`/`except`
+* **Language:** Python 3.x
+* **Paradigm:** Procedural Programming & Modular Design
+* **Data Storage:** Flat-file text database (`.txt`) with dynamic loading/saving
+* **Interface:** Command Line Interface (CLI)
 
-## Future Improvements
+## Core Engineering Practices Demonstrated
 
-- Add support for multiple subjects and CGPA calculation
-- Export records to CSV or JSON
-- Add a simple GUI using Tkinter
+* **CRUD Operations:** Full implementation of Create, Read, Update, and Delete lifecycles for managing persistent records.
+* **In-Memory Data Management:** Efficiently handling and mutating lists of dictionaries in memory before committing state changes to disk.
+* **Defensive Programming:** Strict input validation and exception handling (`try/except`) to prevent runtime crashes from invalid user inputs.
+* **State Persistence:** Robust file I/O operations ensuring zero data loss between application sessions.
+
+## Author
+
+**Md. Tanvirul Islam Rifat**
+* **GitHub:** [@tanvirul-islam-rifat](https://github.com/tanvirul-islam-rifat)
+* **LinkedIn:** [Tanvirul Islam Rifat](https://www.linkedin.com/in/tanvirul-islam-rifat)
