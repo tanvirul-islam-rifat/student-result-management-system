@@ -3,7 +3,6 @@ GradeTrack - Student Result Management System
 A simple CLI application to manage student records, calculate grades,
 and store/retrieve data using file handling.
 
-Course: CSE110 - Programming Language I
 """
 
 import os
@@ -13,29 +12,30 @@ DATA_FILE = "data/students.txt"
 
 # ---------- Grade Calculation ----------
 def calculate_grade(marks):
-    """Convert numeric marks (out of 100) into a letter grade and grade point."""
-    if marks >= 90:
+    if marks >= 97:
         return "A+", 4.00
-    elif marks >= 85:
+    elif marks >= 90:
         return "A", 4.00
-    elif marks >= 80:
+    elif marks >= 85:
         return "A-", 3.70
-    elif marks >= 75:
+    elif marks >= 80:
         return "B+", 3.30
-    elif marks >= 70:
+    elif marks >= 75:
         return "B", 3.00
-    elif marks >= 65:
+    elif marks >= 70:
         return "B-", 2.70
-    elif marks >= 60:
+    elif marks >= 65:
         return "C+", 2.30
-    elif marks >= 55:
+    elif marks >= 60:
         return "C", 2.00
-    elif marks >= 50:
+    elif marks >= 57:
         return "C-", 1.70
-    elif marks >= 45:
+    elif marks >= 55:
         return "D+", 1.30
-    elif marks >= 40:
+    elif marks >= 52:
         return "D", 1.00
+    elif marks >= 50:
+        return "D-", 0.70
     else:
         return "F", 0.00
 
