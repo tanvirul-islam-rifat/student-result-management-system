@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated data (keep folder, ignore actual records)
+data/students.txt
+
+# OS files
+.DS_Store
