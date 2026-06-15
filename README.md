@@ -1,6 +1,6 @@
 # GradeTrack — Student Result Management System
 
-A simple command-line application built in Python to manage student records — add, view, search, update, delete, and rank students by their grade point. Built as a course project for **CSE110 – Programming Language I** at BRAC University.
+A simple command-line application built in Python to manage student records — add, view, search, update, delete, and rank students by their grade point.
 
 ## Features
 
